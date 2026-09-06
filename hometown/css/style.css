@@ -89,15 +89,3 @@ img { max-width: 100%; display: block; }
 .footer a { color: #9fd4b0; margin: 0 8px; }
 .copyright { font-size: .85rem; opacity: .7; margin-top: 12px; }
 
-/* ===== 平板断点：≥768px，卡片两列 ===== */
-@media (min-width: 768px) {
-    .card-grid { grid-template-columns: repeat(2, 1fr); }
-    .hero { padding: 96px 16px; }
-    .hero h1 { font-size: 2.6rem; }
-}
-
-/* ===== 桌面断点：≥992px，景点卡片四列 ===== */
-@media (min-width: 992px) {
-    #scenery .card-grid { grid-template-columns: repeat(4, 1fr); }
-    .hero h1 { font-size: 3.2rem; }
-}

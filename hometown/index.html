@@ -12,6 +12,107 @@
         <h1>秀山丽水</h1>
         <p>浙江绿谷·我的家乡</p>
     </header>
+     <!-- 锚点导航：Flex布局 -->
+    <nav class="main-nav">
+        <div class="nav-wrap">
+            <a class="brand" href="#">丽水</a>
+            <div class="nav-links">
+                <a href="#intro">家乡简介</a>
+                <a href="#scenery">景点风光</a>
+                <a href="#food">家乡美食</a>
+                <a href="#tips">出行贴士</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 家乡简介 -->
+        <section id="intro" class="section">
+            <h2>家乡简介</h2>
+            <p>丽水是浙江省下辖的地级市，古称处州，素有“浙江绿谷”之称。</p>
+            <p>丽水的生态环境质量多年位居浙江省首位，是国家级生态示范区。</p>
+            <div class="tag-row">
+                <span class="tag">浙江绿谷</span>
+                <span class="tag">古称处州</span>
+                <span class="tag">国家级生态示范区</span>
+            </div>
+        </section>
+
+        <!-- 景点风光：Grid卡片墙 -->
+        <section id="scenery" class="section">
+            <h2>景点风光</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <img src="images/scenery-xiandu.jpg" alt="缙云仙都风景图">
+                    <div class="card-body">
+                        <h3>缙云仙都</h3>
+                        <p>峰岩奇绝，山水神秀，众多影视剧的取景地。</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/scenery-titian.jpg" alt="云和梯田风景图">
+                    <div class="card-body">
+                        <h3>云和梯田</h3>
+                        <p>华东地区最大的梯田群，春耕秋收时节如水墨画卷。</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/scenery-huaxiang.jpg" alt="古堰画乡风景图">
+                    <div class="card-body">
+                        <h3>古堰画乡</h3>
+                        <p>千年古堰与瓯江帆影，是写生创作的艺术小镇。</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/scenery-tongjiyan.jpg" alt="通济堰风景图">
+                    <div class="card-body">
+                        <h3>通济堰</h3>
+                        <p>建于南朝的大型水利工程，已入选世界灌溉工程遗产。</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 家乡味道 -->
+        <section id="food" class="section">
+            <h2>家乡味道</h2>
+            <div class="card-grid">
+                <article class="card text-card">
+                    <div class="card-body">
+                        <h3>缙云烧饼</h3>
+                        <p>梅干菜拌五花肉作馅，贴于桶壁炭火烤制，香酥脆鲜。</p>
+                    </div>
+                </article>
+                <article class="card text-card">
+                    <div class="card-body">
+                        <h3>庆元香菇</h3>
+                        <p>世界人工栽培香菇的发源地，一锅菌菇汤鲜掉眉毛。</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 出行贴士 -->
+        <section id="tips" class="section">
+            <h2>出行贴士</h2>
+            <ul class="tips-list">
+                <li>最佳季节：春秋两季，梯田春耕灌水与秋收金黄时最壮观</li>
+                <li>交通方式：高铁直达丽水站，景点之间建议自驾或乘旅游巴士</li>
+                <li>建议天数：2至3天，可串联仙都、古堰画乡与云和梯田</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>了解更多：</p>
+        <p>
+            <a href="http://baike.baidu.com/丽水" target="_blank">百度百科 - 丽水</a>
+            <a href="https://zh.wikipedia.org/wiki/丽水">维基百科 - 丽水</a>
+            <a href="https://data.lishui.gov.cn/#/">丽水市政府官网</a>
+        </p>
+        <p class="copyright">© 2026 家乡风光专题页</p>
+    </footer>
 </body>
 </html>
 
