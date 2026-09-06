@@ -38,6 +38,6 @@ body {
     padding: 16px;
 }
 
-@media（min-width: 992px）{
+@media(min-width: 992px){
     .course-card { padding: 24px; }
 }
